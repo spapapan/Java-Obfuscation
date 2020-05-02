@@ -3,7 +3,7 @@ Obfuscate java code
 
 Use the code below in your java project to get the names of your variables/methods. Put the names in a text file named "names.txt" and place it in the top level directory of this project. In the same directory put your .java file. Open Main.java and change the javaClassName String so it will point to your .java file. 
  
-        public static void getClassVariableAndMethodNames(Class className)
+    public static void getClassVariableAndMethodNames(Class className)
     {
         //Get variables
         Field[] variableNames = className.getDeclaredFields();
